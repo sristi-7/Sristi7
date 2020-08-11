@@ -15,7 +15,13 @@ class Form {
             button.hide();
 
             var name=input.value();
+
             playerCount++;
+            player.update(name);
+            player.updateCount(playerCount);
+            var greeting =createElement("h3");
+            greeting.html("hello, "+name);
+            greeting.position(130,160);
             
         })
     }
