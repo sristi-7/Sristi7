@@ -57,7 +57,7 @@ class Game {
             cars[index-1].y=y;
             if(index===player.index){
               // cars[index-1].shapeColor="green";
-              console.log(index);
+              //console.log(index);
               stroke(10);
               fill ("blue");
               rect(cars[index-1].x,cars[index-1].y,200,20);
